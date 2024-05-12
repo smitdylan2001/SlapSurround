@@ -948,7 +948,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f1e07328b80e1664ab0b12a85e855a4f, type: 2}
+  - {fileID: 2100000, guid: 75195bcbbba5db144a4f8171f02e05d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2857,7 +2857,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f1e07328b80e1664ab0b12a85e855a4f, type: 2}
+  - {fileID: 2100000, guid: 75195bcbbba5db144a4f8171f02e05d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9612,6 +9612,9 @@ VisualEffect:
       m_Array:
       - m_Value: 0.2
         m_Name: VelocityRandom
+        m_Overridden: 1
+      - m_Value: 0.2
+        m_Name: Lifetime
         m_Overridden: 1
     m_Vector2f:
       m_Array: []

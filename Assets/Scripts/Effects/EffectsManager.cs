@@ -130,13 +130,13 @@ public class EffectsManager : MonoBehaviour
 
             float radius = ((Time.time - data.StartTime) * data.Speed) % data.Distance;
 
-            if (radius < previousRadius)
+            if (radius < data.CurrentDistance)
             {
                 // Play the audio source
                 if(!data.source.isPlaying) data.source.Play();
             }
 
-            previousRadius = radius;
+            data.CurrentDistance = radius;
 
             data.Job = new EffectsJobParralel
             {

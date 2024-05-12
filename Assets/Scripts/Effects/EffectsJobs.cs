@@ -10,7 +10,7 @@ using UnityEngine;
 public class EffectData
 {
     public float3 Origin;
-    public float Speed, Distance, StartTime;
+    public float Speed, Distance, StartTime, CurrentDistance;
     public EffectsJobParralel Job;
     public JobHandle Handle;
     public AudioSource source;
